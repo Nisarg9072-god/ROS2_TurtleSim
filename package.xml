@@ -2,14 +2,14 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>my_robot_controller</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ubuntu-2404@todo.todo">ubuntu-2404</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.1.0</version>
+  <description>A ROS2 Python package containing basic robot controller nodes for TurtleSim using rclpy.</description>
+  <maintainer email="your_email@gmail.com">Nisarg</maintainer>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
-  <depend> turtlesim</depend>
+  <depend>turtlesim</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -4,7 +4,7 @@ package_name = 'my_robot_controller'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.1.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ubuntu-2404',
-    maintainer_email='ubuntu-2404@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Nisarg',
+    maintainer_email='your_email@gmail.com',
+    description='A ROS2 Python package containing basic robot controller nodes for TurtleSim using rclpy.',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
